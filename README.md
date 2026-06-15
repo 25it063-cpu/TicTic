@@ -55,7 +55,7 @@ Built as a project to learn Android development and improve my Kotlin and Jetpac
 ##  Screenshots
 
 <p align="center">
-  <img src="TicTic-1.png" width="250"/>
+  <img src="TicTic-1.jpeg" width="250"/>
   <img src="TicTic-2.png" width="250"/>
   <img src="TicTic-3.png" width="250"/>
 </p>
