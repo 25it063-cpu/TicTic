@@ -18,6 +18,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.delay
+import androidx.compose.material3.OutlinedTextFieldDefaults
 
 @Composable
 fun TimerScreen() {
@@ -138,7 +139,16 @@ fun TimerScreen() {
         OutlinedTextField(
             value = hours,
             onValueChange = { hours = it },
-            label = { Text("Hours") }
+            label = { Text("Hours") },
+            colors = OutlinedTextFieldDefaults.colors(
+                focusedTextColor = Color.White,
+                unfocusedTextColor = Color.White,
+                focusedBorderColor = Color(0xFF6F8CFF),
+                unfocusedBorderColor = Color.Gray,
+                focusedLabelColor = Color(0xFF6F8CFF),
+                unfocusedLabelColor = Color.Gray,
+                cursorColor = Color(0xFF6F8CFF)
+            )
         )
 
         Spacer(modifier = Modifier.height(10.dp))
@@ -146,7 +156,16 @@ fun TimerScreen() {
         OutlinedTextField(
             value = minutes,
             onValueChange = { minutes = it },
-            label = { Text("Minutes") }
+            label = { Text("Minutes") },
+            colors = OutlinedTextFieldDefaults.colors(
+                focusedTextColor = Color.White,
+                unfocusedTextColor = Color.White,
+                focusedBorderColor = Color(0xFF6F8CFF),
+                unfocusedBorderColor = Color.Gray,
+                focusedLabelColor = Color(0xFF6F8CFF),
+                unfocusedLabelColor = Color.Gray,
+                cursorColor = Color(0xFF6F8CFF)
+            )
         )
 
         Spacer(modifier = Modifier.height(10.dp))
@@ -154,7 +173,16 @@ fun TimerScreen() {
         OutlinedTextField(
             value = seconds,
             onValueChange = { seconds = it },
-            label = { Text("Seconds") }
+            label = { Text("Seconds") },
+            colors = OutlinedTextFieldDefaults.colors(
+                focusedTextColor = Color.White,
+                unfocusedTextColor = Color.White,
+                focusedBorderColor = Color(0xFF6F8CFF),
+                unfocusedBorderColor = Color.Gray,
+                focusedLabelColor = Color(0xFF6F8CFF),
+                unfocusedLabelColor = Color.Gray,
+                cursorColor = Color(0xFF6F8CFF)
+            )
         )
 
         Spacer(modifier = Modifier.height(20.dp))
