@@ -52,6 +52,12 @@ TicTic is a modern Android clock application built using Kotlin and Jetpack Comp
 
 Built as a project to learn Android development and improve my Kotlin and Jetpack Compose skills.
 
+##  Screenshots
 
+<p align="center">
+  <img src="TicTic-1.png" width="250"/>
+  <img src="TicTic-2.png" width="250"/>
+  <img src="TicTic-3.png" width="250"/>
+</p>
 
 
