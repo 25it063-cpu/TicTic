@@ -2,6 +2,11 @@
 
 TicTic is a modern Android clock application built using Kotlin and Jetpack Compose. The app combines essential time management features such as a digital clock, world clock, stopwatch, and countdown timer in a clean and user-friendly interface.
 
+## 🎓 Internship Details
+
+- Intern ID: CITS1726
+- Project: Recipe Finder Android App
+
 ### Features
 
 ### World Clock
